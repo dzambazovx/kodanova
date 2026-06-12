@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KodaNova | Почетна</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+            <div class="header-inner">
+                <img src="image.png" alt="KodaNova logo" class="site-logo">
+                <div class="header-utilities">
+                    <div class="utility-item phone">Телефон: <a href="tel:+389 034 331 309">+389 034 331 309</a></div>
+                    <div class="utility-item hours">Работно време: Пон–Саб 08:00–18:00</div>
+                </div>
+            </div>
+    </header>
+    <main>
+        <section class="slideshow-wrap">
+            <div class="slideshow-container">
+                <div class="slides-track">
+                <div class="slide">
+                    <div class="numbertext">1 / 6</div>
+                    <img src="img1.jpg" alt="Slide 1">
+                </div>
+
+                <div class="slide">
+                    <div class="numbertext">2 / 6</div>
+                    <img src="img2.jpg" alt="Slide 2">
+                </div>
+
+                <div class="slide">
+                    <div class="numbertext">3 / 6</div>
+                    <img src="img3.jpg" alt="Slide 3">
+                </div>
+
+                <div class="slide">
+                    <div class="numbertext">4 / 6</div>
+                    <img src="img4.jpg" alt="Slide 4">
+                </div>
+
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+
+            <div class="dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+        </section>
+    </main>
+
+    <!-- Site content: hero, features, about, contact -->
+    <section class="site-content">
+        <div class="container">
+            <section class="hero">
+                <h1>KodaNova Distribution</h1>
+                <p class="lead">Доверливи, брзи и ефикасни логистички решенија — складирање, обработка на нарачки и национална дистрибуција прилагодена за вашиот бизнис.</p>
+                <div class="hero-cta">
+                    <a class="btn" href="#contact">Контактирајте нè</a>
+                </div>
+            </section>
+
+            <section class="features">
+                <div class="feature-item">
+                    <div class="icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <rect x="1" y="7" width="14" height="7" rx="1"></rect>
+                            <rect x="15" y="9" width="6" height="5" rx="1"></rect>
+                            <circle cx="7" cy="17" r="1.5"></circle>
+                            <circle cx="17" cy="17" r="1.5"></circle>
+                        </svg>
+                    </div>
+                    <h3>Брза испорака</h3>
+                    <p>Оптимизирани рути и партнерства со превозници за навремена испорака, секогаш.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="M21 16V8l-9-5-9 5v8"></path>
+                            <path d="M3.27 6.96L12 12.01l8.73-5.05"></path>
+                        </svg>
+                    </div>
+                    <h3>Безбедно складирање</h3>
+                    <p>Климатски контролирано складиште и 24/7 мониторинг за безбедно управување со залихите.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <circle cx="12" cy="12" r="3"></circle>
+                            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06A1.65 1.65 0 0 0 15 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 8.6 15a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 13 8.6a1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 11z"></path>
+                        </svg>
+                    </div>
+                    <h3>Управување со залиха</h3>
+                    <p>Следење и извештај во реално време за одржување на нивоата на залихи и намалување на трошоците.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <rect x="3" y="11" width="4" height="7" rx="1"></rect>
+                            <rect x="9" y="7" width="4" height="11" rx="1"></rect>
+                            <rect x="15" y="4" width="4" height="14" rx="1"></rect>
+                        </svg>
+                    </div>
+                    <h3>Скалабилно фулфилмент</h3>
+                    <p>Флексибилни планови за исполнување кои растат со вашиот бизнис и сезонските пикови.</p>
+                </div>
+            </section>
+
+            <section class="about">
+                <h2>За нашиот центар</h2>
+                <p>Сместен стратешки за брз регионален пристап, KodaNova дистрибутивниот центар комбинира индустриско искуство со модерна автоматизација за да му даде на вашиот синџир на снабдување конкурентска предност. Ние ракуваме со примање, складирање, собирање, пакување и испраќање со внимание на квалитетот и роковите.</p>
+            </section>
+
+            <section class="stats">
+                <div class="stat"> <strong>10.000+</strong><span> пратки / месечно</span></div>
+                <div class="stat"> <strong>50.000</strong><span> m² складишен простор</span></div>
+                <div class="stat"> <strong>99.8%</strong><span> навремена испорака</span></div>
+            </section>
+
+            <section id="contact" class="contact">
+                <h2>Контакт и локација</h2>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <p><strong>Адреса:</strong> Гоце Делчев 62-е, Струмица</p>
+                        <p><strong>Телефон:</strong> +389 034 331 309</p>
+                        <p><strong>Е-пошта:</strong> info@koda-nova.email</p>
+                    </div>
+                    <div class="contact-map">
+                        <div class="map-embed">
+                            <iframe title="Локација KodaNova" src="https://www.google.com/maps?q=Гоце+Делчев+62-е+Струмица&output=embed" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <img src="logobelo.jpeg" alt="KodaNova" class="footer-logo">
+                    <p>KodaNova Дистрибутивен центар — ефикасни решенија за складирање и фулфилмент за современа е-трговија и малопродажба.</p>
+                </div>
+
+                
+
+                
+            </div>
+
+            <div class="footer-bottom">
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M22 12a10 10 0 1 0-11.5 9.9v-7h-2.2v-2.9h2.2V9.3c0-2.2 1.3-3.4 3.2-3.4.9 0 1.8.1 1.8.1v2h-1c-1 0-1.3.6-1.3 1.2v1.6h2.3l-.4 2.9h-1.9v7A10 10 0 0 0 22 12z"/></svg>
+                        <span>Facebook</span>
+                    </a>
+                    <a href="#" aria-label="LinkedIn">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-.9 1.8-1.7 3.7-1.7 4 0 4.7 2.6 4.7 6v7h-4v-6.1c0-1.5 0-3.5-2.1-3.5-2.1 0-2.4 1.6-2.4 3.4V21H9V9z"/></svg>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="#" aria-label="Twitter">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M22 5.9c-.6.3-1.2.6-1.9.7.7-.4 1.2-1.1 1.4-1.8-.7.4-1.4.7-2.2.9C18.9 5 18 5 17.4 4.5c-.6-.5-1-1.2-1-2 0-.2 0-.4.1-.6-1.5.3-2.9.8-4.2 1.6C10.4 5.3 9.9 6 9.9 7.1c0 .6.2 1.1.6 1.5-.5 0-1-.2-1.6-.5 0 1.6 1.1 3.1 2.7 3.5-.4.1-.8.2-1.2.2-.3 0-.6 0-.9-.1.6 1.8 2.3 3.1 4.3 3.2-1.6 1.3-3.6 2-5.8 2 -.4 0-.8 0-1.1-.1C7.3 21.6 9.5 22 12 22c7 0 10.8-5.8 10.8-10.8v-.5c.7-.5 1.2-1.1 1.7-1.8-.6.3-1.3.6-2.1.8z"/></svg>
+                        <span>Twitter</span>
+                    </a>
+                </div>
+                <div class="copyright">&copy; 2026 KodaNova Дистрибутивен центар.</div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        let slideIndex = 1;
+        const track = document.querySelector('.slides-track');
+        const slides = document.getElementsByClassName('slide');
+        const dots = document.getElementsByClassName('dot');
+        showSlides(slideIndex);
+        let slideInterval = setInterval(() => plusSlides(1), 10000);
+
+        function plusSlides(n) {
+            slideIndex += n;
+            if (slideIndex > slides.length) slideIndex = 1;
+            if (slideIndex < 1) slideIndex = slides.length;
+            showSlides(slideIndex);
+        }
+
+        function currentSlide(n) {
+            slideIndex = n;
+            showSlides(slideIndex);
+        }
+
+        function showSlides(n) {
+            const offset = -((n - 1) * 100);
+            track.style.transform = `translateX(${offset}%)`;
+            for (let i = 0; i < dots.length; i++) { dots[i].className = dots[i].className.replace(' active', ''); }
+            for (let i = 0; i < slides.length; i++) { slides[i].classList.toggle('active', i === (slideIndex - 1)); }
+            dots[slideIndex - 1].className += ' active';
+        }
+
+        const container = document.querySelector('.slideshow-container');
+        container.addEventListener('mouseenter', () => clearInterval(slideInterval));
+        container.addEventListener('mouseleave', () => { slideInterval = setInterval(() => plusSlides(1), 10000); });
+    </script>
+
+</body>
+</html>
